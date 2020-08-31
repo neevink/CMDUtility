@@ -18,6 +18,7 @@ namespace CMDUtility
                 {
                     Console.WriteLine("Commands:");
                     Console.WriteLine("\tcircle - run circle ainmation");
+                    Console.WriteLine("\tcircle - run dots ainmation");
                     Console.WriteLine("\tarrow - run arrow ainmation");
                     Console.WriteLine();
                     Console.WriteLine("Flags:");

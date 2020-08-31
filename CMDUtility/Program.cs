@@ -17,6 +17,7 @@ namespace CMDUtility
                 if (args[0] == "help")
                 {
                     Console.WriteLine("Commands:");
+                    Console.WriteLine("\thelp - display hepl");
                     Console.WriteLine("\tcircle - run circle ainmation");
                     Console.WriteLine("\tcircle - run dots ainmation");
                     Console.WriteLine("\tarrow - run arrow ainmation");
@@ -74,7 +75,6 @@ namespace CMDUtility
             }
             catch(Exception e)
             {
-                Console.WriteLine(e);
                 Console.WriteLine("Command not found!");
                 Console.WriteLine("Write 'cmdutility help' to get help.");
                 return;

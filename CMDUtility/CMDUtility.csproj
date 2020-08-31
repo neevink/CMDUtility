@@ -60,7 +60,6 @@
     <Compile Include="ArrowPromptAnimation.cs" />
     <Compile Include="CirclePromptAnimation.cs" />
     <Compile Include="DotsPromptAnimation.cs" />
-    <Compile Include="IPromptAnimation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="PromptAnimation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
